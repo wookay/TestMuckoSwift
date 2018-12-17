@@ -11,6 +11,7 @@
 		1C2E393E21C81A9200CACB25 /* strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E393C21C81A8B00CACB25 /* strings.swift */; };
 		1C2E393F21C81A9500CACB25 /* version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E393D21C81A8B00CACB25 /* version.swift */; };
 		1C2E394121C81FCF00CACB25 /* array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E394021C81FCF00CACB25 /* array.swift */; };
+		1C2E396221C84B4B00CACB25 /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E396121C84B4B00CACB25 /* Meta.swift */; };
 		A67AA50169C56F0579B5A9E7 /* libPods-TestMuckoSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7D52E9278C102614793002 /* libPods-TestMuckoSwift.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		1C2E393C21C81A8B00CACB25 /* strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strings.swift; sourceTree = "<group>"; };
 		1C2E393D21C81A8B00CACB25 /* version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = version.swift; sourceTree = "<group>"; };
 		1C2E394021C81FCF00CACB25 /* array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = array.swift; sourceTree = "<group>"; };
+		1C2E396121C84B4B00CACB25 /* Meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
 		6488C704BFF6E79DCCD33EE7 /* Pods-TestMuckoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMuckoSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestMuckoSwift/Pods-TestMuckoSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		CF7D52E9278C102614793002 /* libPods-TestMuckoSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestMuckoSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA26C8CF99792FC09CEDDF8 /* Pods-TestMuckoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMuckoSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestMuckoSwift/Pods-TestMuckoSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				1C2E393C21C81A8B00CACB25 /* strings.swift */,
 				1C2E393D21C81A8B00CACB25 /* version.swift */,
 				1C2E394021C81FCF00CACB25 /* array.swift */,
+				1C2E396121C84B4B00CACB25 /* Meta.swift */,
 			);
 			path = mucko;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				1C2E393E21C81A9200CACB25 /* strings.swift in Sources */,
 				1C2E394121C81FCF00CACB25 /* array.swift in Sources */,
 				1C2E393521C81A6500CACB25 /* main.swift in Sources */,
+				1C2E396221C84B4B00CACB25 /* Meta.swift in Sources */,
 				1C2E393F21C81A9500CACB25 /* version.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
