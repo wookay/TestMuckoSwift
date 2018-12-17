@@ -13,4 +13,4 @@ let tests = [
     TestString.self,
     TestArray.self,
 ]
-UnitTest.report(tests)
+UnitTest.run(tests)

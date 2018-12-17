@@ -315,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6488C704BFF6E79DCCD33EE7 /* Pods-TestMuckoSwift.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U2KBENECEZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -326,6 +327,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DEA26C8CF99792FC09CEDDF8 /* Pods-TestMuckoSwift.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U2KBENECEZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
