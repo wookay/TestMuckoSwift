@@ -12,4 +12,6 @@ before_install:
   - gem install cocoapods
   - gem update xcodeproj
   - cd TestMuckoSwift && pod update
-script: cd TestMuckoSwift && pod install && make
+script:
+  - cd TestMuckoSwift && pod install
+  - cd TestMuckoSwift && make
