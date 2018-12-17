@@ -10,6 +10,7 @@ import MuckoSwift
 
 let tests = [
     TestVersionNumber.self,
-    TestString.self
+    TestString.self,
+    TestArray.self,
 ]
 UnitTest.report(tests)
