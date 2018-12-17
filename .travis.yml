@@ -7,4 +7,5 @@ xcode_destination: platform=macOS,arch=x86_64
 podfile: TestMuckoSwift/Podfile
 before_install:
   - gem install cocoapods
+  - pod update
 script: cd TestMuckoSwift && pod install && make
