@@ -11,6 +11,8 @@ class TestMeta: WTestCase {
     @objc func test_typeof() {
         Assert.True(typeof(1) == Int.self)
         Assert.equal(typeof(1), Int.self)
+        let n: Int? = nil
+        Assert.equal(typeof(n), Optional<Int>.self)
     }
 
 }
