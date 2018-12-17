@@ -6,7 +6,10 @@
 //  Copyright © 2018 wookyoung. All rights reserved.
 //
 
-import Foundation
+import MuckoSwift
 
-print("Hello, World!")
-
+let tests = [
+    TestVersionNumber.self,
+    TestString.self
+]
+UnitTest.report(tests)
