@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C2E393521C81A6500CACB25 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E393421C81A6500CACB25 /* main.swift */; };
+		1C2E393E21C81A9200CACB25 /* strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E393C21C81A8B00CACB25 /* strings.swift */; };
+		1C2E393F21C81A9500CACB25 /* version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E393D21C81A8B00CACB25 /* version.swift */; };
+		A67AA50169C56F0579B5A9E7 /* libPods-TestMuckoSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7D52E9278C102614793002 /* libPods-TestMuckoSwift.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1C2E392F21C81A6500CACB25 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1C2E393121C81A6500CACB25 /* TestMuckoSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestMuckoSwift; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C2E393421C81A6500CACB25 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1C2E393C21C81A8B00CACB25 /* strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strings.swift; sourceTree = "<group>"; };
+		1C2E393D21C81A8B00CACB25 /* version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = version.swift; sourceTree = "<group>"; };
+		6488C704BFF6E79DCCD33EE7 /* Pods-TestMuckoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMuckoSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestMuckoSwift/Pods-TestMuckoSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		CF7D52E9278C102614793002 /* libPods-TestMuckoSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestMuckoSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA26C8CF99792FC09CEDDF8 /* Pods-TestMuckoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMuckoSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestMuckoSwift/Pods-TestMuckoSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C2E392E21C81A6500CACB25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67AA50169C56F0579B5A9E7 /* libPods-TestMuckoSwift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C2E392821C81A6500CACB25 = {
+			isa = PBXGroup;
+			children = (
+				1C2E393321C81A6500CACB25 /* TestMuckoSwift */,
+				1C2E393221C81A6500CACB25 /* Products */,
+				245A592A7E6681070A2F80C8 /* Pods */,
+				5AB9412FDE418E4C5BF5B3EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1C2E393221C81A6500CACB25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E393121C81A6500CACB25 /* TestMuckoSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C2E393321C81A6500CACB25 /* TestMuckoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E393B21C81A8B00CACB25 /* mucko */,
+				1C2E393421C81A6500CACB25 /* main.swift */,
+			);
+			path = TestMuckoSwift;
+			sourceTree = "<group>";
+		};
+		1C2E393B21C81A8B00CACB25 /* mucko */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E393C21C81A8B00CACB25 /* strings.swift */,
+				1C2E393D21C81A8B00CACB25 /* version.swift */,
+			);
+			path = mucko;
+			sourceTree = "<group>";
+		};
+		245A592A7E6681070A2F80C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6488C704BFF6E79DCCD33EE7 /* Pods-TestMuckoSwift.debug.xcconfig */,
+				DEA26C8CF99792FC09CEDDF8 /* Pods-TestMuckoSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5AB9412FDE418E4C5BF5B3EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF7D52E9278C102614793002 /* libPods-TestMuckoSwift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C2E393021C81A6500CACB25 /* TestMuckoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C2E393821C81A6500CACB25 /* Build configuration list for PBXNativeTarget "TestMuckoSwift" */;
+			buildPhases = (
+				699C8110016F4965D330A170 /* [CP] Check Pods Manifest.lock */,
+				1C2E392D21C81A6500CACB25 /* Sources */,
+				1C2E392E21C81A6500CACB25 /* Frameworks */,
+				1C2E392F21C81A6500CACB25 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMuckoSwift;
+			productName = TestMuckoSwift;
+			productReference = 1C2E393121C81A6500CACB25 /* TestMuckoSwift */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C2E392921C81A6500CACB25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = wookyoung;
+				TargetAttributes = {
+					1C2E393021C81A6500CACB25 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 1C2E392C21C81A6500CACB25 /* Build configuration list for PBXProject "TestMuckoSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C2E392821C81A6500CACB25;
+			productRefGroup = 1C2E393221C81A6500CACB25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C2E393021C81A6500CACB25 /* TestMuckoSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		699C8110016F4965D330A170 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestMuckoSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C2E392D21C81A6500CACB25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2E393E21C81A9200CACB25 /* strings.swift in Sources */,
+				1C2E393521C81A6500CACB25 /* main.swift in Sources */,
+				1C2E393F21C81A9500CACB25 /* version.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C2E393621C81A6500CACB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C2E393721C81A6500CACB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1C2E393921C81A6500CACB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6488C704BFF6E79DCCD33EE7 /* Pods-TestMuckoSwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2KBENECEZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		1C2E393A21C81A6500CACB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA26C8CF99792FC09CEDDF8 /* Pods-TestMuckoSwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2KBENECEZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C2E392C21C81A6500CACB25 /* Build configuration list for PBXProject "TestMuckoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2E393621C81A6500CACB25 /* Debug */,
+				1C2E393721C81A6500CACB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C2E393821C81A6500CACB25 /* Build configuration list for PBXNativeTarget "TestMuckoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2E393921C81A6500CACB25 /* Debug */,
+				1C2E393A21C81A6500CACB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C2E392921C81A6500CACB25 /* Project object */;
+}
