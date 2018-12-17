@@ -5,5 +5,5 @@ osx_image: xcode10
 matrix:
   include:
   - osx_image: xcode10
-    env: osx
+    env: macOS 10.14
     script: cd TestMuckoSwift && pod install && make
