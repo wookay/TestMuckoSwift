@@ -1,0 +1,9 @@
+notifications:
+  email: false
+language: objective-c
+osx_image: xcode10
+matrix:
+  include:
+  - osx_image: xcode10
+    env: osx
+    script: cd TestMuckoSwift && pod install && make
