@@ -4,5 +4,6 @@ language: objective-c
 xcode_workspace: TestMuckoSwift/TestMuckoSwift.xcworkspace
 xcode_scheme: TestMuckoSwift
 xcode_destination: platform=macOS,arch=x86_64
+gemfile: TestMuckoSwift/Gemfile
 podfile: TestMuckoSwift/Podfile
 script: cd TestMuckoSwift && pod install && make
