@@ -22,6 +22,7 @@ class TestString: WTestCase {
         Assert.equal(repr(n), "nil")
         Assert.equal(repr([n, n]), "[nil, nil]")
         Assert.equal(repr((n, n)), "(nil, nil)")
+        Assert.equal(repr((n, 1)), "(nil, 1)")
     }
 
     @objc func test_string() {
@@ -29,6 +30,7 @@ class TestString: WTestCase {
         let n: Int? = nil
         Assert.equal(string(n), "nil")
         Assert.equal(string(n, n), "nilnil")
+        Assert.equal(string(n as Any, 1, "a"), "nil1a")
     }
 
 }
