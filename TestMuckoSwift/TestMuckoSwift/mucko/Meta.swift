@@ -13,6 +13,8 @@ class TestMeta: WTestCase {
         Assert.equal(typeof(1), Int.self)
         let n: Int? = nil
         Assert.equal(typeof(n), Optional<Int>.self)
+        Assert.equal(typeof(typeof(1)), Int.Type.self)
+        Assert.equal(typeof(Int.self), Int.Type.self)
     }
 
 }

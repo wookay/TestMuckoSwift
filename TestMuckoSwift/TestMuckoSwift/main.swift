@@ -7,11 +7,4 @@
 //
 
 import MuckoSwift
-
-let tests = [
-    TestVersionNumber.self,
-    TestString.self,
-    TestArray.self,
-    TestMeta.self,
-]
 UnitTest.run(tests)

@@ -1,3 +1,11 @@
-build:
-	xcodebuild -workspace TestMuckoSwift.xcworkspace/ -scheme TestMuckoSwift -destination 'platform=macOS,arch=x86_64' -showBuildTimingSummary -derivedDataPath ./DerivedData -quiet clean build
+all:
+	make ios
+	make osx
+
+ios:
+	xcodebuild -workspace TestMuckoSwift.xcworkspace/ -scheme TestiOS -destination 'platform=iOS Simulator,name=iPhone 6s,OS=12.0' -derivedDataPath ./DerivedData -quiet build
+	otool -L ./DerivedData/Build/Products/Debug-iphonesimulator/TestiOS.app/TestiOS
+
+osx:
+	xcodebuild -workspace TestMuckoSwift.xcworkspace/ -scheme TestMuckoSwift -destination 'platform=macOS,arch=x86_64' -derivedDataPath ./DerivedData -quiet build
 	./DerivedData/Build/Products/Debug/TestMuckoSwift
