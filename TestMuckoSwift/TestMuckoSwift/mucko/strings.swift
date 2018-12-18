@@ -33,4 +33,8 @@ class TestString: WTestCase {
         Assert.equal(string(n as Any, 1, "a"), "nil1a")
     }
 
+    @objc func test_isempty() {
+        Assert.True(isempty(""))
+    }
+
 }

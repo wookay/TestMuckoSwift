@@ -7,6 +7,7 @@ class TestVersionNumber: WTestCase {
     @objc func test_version() {
         let v = VersionNumber("0.1")
         Assert.equal(string(v), "v\"0.1.0\"")
+        Assert.True(VersionNumber("0.1.1") > v)
     }
 
 }

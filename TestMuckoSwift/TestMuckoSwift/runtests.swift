@@ -6,4 +6,6 @@ let tests = [
     TestCore.self,
     TestError.self,
     TestSys.self,
+    TestFloat.self,
+    TestParse.self,
 ]

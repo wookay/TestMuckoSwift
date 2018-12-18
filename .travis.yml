@@ -1,10 +1,6 @@
 notifications:
   email: false
 language: objective-c
-xcode_workspace: TestMuckoSwift/TestMuckoSwift.xcworkspace
-xcode_scheme: TestMuckoSwift
-xcode_destination: platform=macOS,arch=x86_64
-podfile: TestMuckoSwift/Podfile
 cache:
   - bundler
   - cocoapods
