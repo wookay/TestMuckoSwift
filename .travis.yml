@@ -17,5 +17,5 @@ script:
   - pwd
   - ls
   - pod install
-  - xcodebuild -workspace TestMuckoSwift.xcworkspace/ -scheme TestMuckoSwift -destination 'platform=macOS,arch=x86_64' -derivedDataPath ./DerivedData clean build
+  - xcodebuild -workspace TestMuckoSwift.xcworkspace/ -scheme TestMuckoSwift -destination 'platform=macOS,arch=x86_64' -derivedDataPath ./DerivedData -quiet clean build
   - ./DerivedData/Build/Products/Debug/TestMuckoSwift
