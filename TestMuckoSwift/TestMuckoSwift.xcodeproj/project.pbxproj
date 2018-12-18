@@ -125,7 +125,7 @@
 			name = TestMuckoSwift;
 			productName = TestMuckoSwift;
 			productReference = 1C2E393121C81A6500CACB25 /* TestMuckoSwift */;
-			productType = "com.apple.product-type.application";
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
