@@ -3,7 +3,7 @@ all:
 	make osx
 
 ios:
-	xcodebuild -workspace TestMuckoSwift.xcworkspace/ -scheme TestiOS -destination 'platform=iOS Simulator,name=iPhone 6s,OS=12.0' -derivedDataPath ./DerivedData -quiet build
+	xcodebuild -workspace TestMuckoSwift.xcworkspace/ -scheme TestiOS -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.0' -derivedDataPath ./DerivedData -quiet build
 	otool -L ./DerivedData/Build/Products/Debug-iphonesimulator/TestiOS.app/TestiOS
 
 osx:
