@@ -12,5 +12,9 @@ class TestFloat: WTestCase {
         Assert.equal(round(Double.pi, digits: 2), 3.14)
     }
 
+    @objc func test_nan() {
+        Assert.True(Double.nan.isNaN)
+    }
+
 }
 

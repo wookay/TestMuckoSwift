@@ -11,6 +11,11 @@ class TestString: WTestCase {
 
     @objc func test_split() {
         Assert.equal(split("b,c", ","), ["b", "c"])
+        Assert.equal(split("a\nb"), ["a", "b"])
+        Assert.equal(split("a\n b "), ["a", "b"])
+        Assert.equal(split("a\n b ", keepempty: true), ["a", "", "b", ""])
+        Assert.equal(split("a\n b ", " "), ["a\n", "b", ""])
+        Assert.equal(split("a\n b ", " ", keepempty: false), ["a\n", "b"])
     }
 
     @objc func test_repr() {
@@ -31,7 +36,7 @@ class TestString: WTestCase {
         let n: Int? = nil
         Assert.equal(string(n), "nil")
         Assert.equal(string(n, n), "nilnil")
-        Assert.equal(string(n as Any, 1, "a"), "nil1a")
+        Assert.equal(string(n as Any, 5, "a"), "nil5a")
     }
 
     @objc func test_isempty() {
