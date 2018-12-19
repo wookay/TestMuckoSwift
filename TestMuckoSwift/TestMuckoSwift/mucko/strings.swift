@@ -26,6 +26,7 @@ class TestString: WTestCase {
     }
 
     @objc func test_string() {
+        Assert.equal(string(), "")
         Assert.equal(string(1,2,3,true), "123true")
         let n: Int? = nil
         Assert.equal(string(n), "nil")

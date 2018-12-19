@@ -21,12 +21,25 @@ class TestMeta: WTestCase {
         Assert.equal(typeof((0, "")), (Int, String).self)
         Assert.equal(typeof((Int, String).self), (Int, String).Type.self)
         Assert.equal(typeof(Double.nan), Double.self)
-        Assert.True(Double.nan.isNaN)
+
         Assert.equal(typeof(true), Bool.self)
         Assert.equal(typeof(test_isa), (() -> Void).self)
         Assert.equal(typeof(isa), ((Any, Any.Type) -> Bool).self)
         Assert.equal(typeof((() -> Void).self), (() -> Void).Type.self)
         Assert.equal(typeof(NSNull()), NSNull.self)
+
+        Assert.equal(Any.Protocol.self, typeof(Any.self))
+        Assert.equal(Any.Protocol.Type.self, typeof(Any.Protocol.self))
+        Assert.equal(Any.Protocol.Type.Type.self, typeof(Any.Protocol.Type.self))
+
+        Assert.equal(AnyObject.Protocol.self, typeof(AnyObject.self))
+        Assert.equal(Void.Type.self, typeof(Void.self))
+
+        Assert.equal(Optional<Any>.Type.self, typeof(Any?.self))
+        Assert.equal(TestMeta.Type.self, typeof(TestMeta.self))
+        Assert.equal((() -> Void).self, typeof(test_typeof.self))
+
+        Assert.equal(typeof(self), TestMeta.self)
     }
 
 }

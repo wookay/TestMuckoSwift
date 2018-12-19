@@ -7,4 +7,6 @@
 //
 
 import MuckoSwift
+
+tests.append(contentsOf: [TestCocoa.self])
 UnitTest.run(tests)

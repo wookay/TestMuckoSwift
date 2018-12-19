@@ -1,4 +1,4 @@
-let tests = [
+var tests = [
     TestVersionNumber.self,
     TestString.self,
     TestArray.self,

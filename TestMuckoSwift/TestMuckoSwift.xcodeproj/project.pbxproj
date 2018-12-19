@@ -34,6 +34,7 @@
 		1C2E39D521C954BB00CACB25 /* float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E39D321C954BB00CACB25 /* float.swift */; };
 		1C2E39D721C955B600CACB25 /* parse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E39D621C955B600CACB25 /* parse.swift */; };
 		1C2E39D821C955B600CACB25 /* parse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E39D621C955B600CACB25 /* parse.swift */; };
+		1C6FD94E21CAE7F3009DA76B /* cocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FD94D21CAE7F3009DA76B /* cocoa.swift */; };
 		253E3E6C29927FEDE0A23849 /* libPods-TestiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A8DD377F5F6AA24C959167 /* libPods-TestiOS.a */; };
 		A67AA50169C56F0579B5A9E7 /* libPods-TestMuckoSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7D52E9278C102614793002 /* libPods-TestMuckoSwift.a */; };
 /* End PBXBuildFile section */
@@ -84,6 +85,7 @@
 		1C2E39A021C8FBE700CACB25 /* runtests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = runtests.swift; sourceTree = "<group>"; };
 		1C2E39D321C954BB00CACB25 /* float.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = float.swift; sourceTree = "<group>"; };
 		1C2E39D621C955B600CACB25 /* parse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = parse.swift; sourceTree = "<group>"; };
+		1C6FD94D21CAE7F3009DA76B /* cocoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cocoa.swift; sourceTree = "<group>"; };
 		2A413BC577834A05CF0B44AF /* Pods-TestiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestiOS/Pods-TestiOS.release.xcconfig"; sourceTree = "<group>"; };
 		6488C704BFF6E79DCCD33EE7 /* Pods-TestMuckoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMuckoSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestMuckoSwift/Pods-TestMuckoSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		B2A8DD377F5F6AA24C959167 /* libPods-TestiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,6 +145,7 @@
 		1C2E393321C81A6500CACB25 /* TestMuckoSwift */ = {
 			isa = PBXGroup;
 			children = (
+				1C6FD94C21CAE7E7009DA76B /* osx */,
 				1C2E393B21C81A8B00CACB25 /* mucko */,
 				1C2E393421C81A6500CACB25 /* main.swift */,
 				1C2E39A021C8FBE700CACB25 /* runtests.swift */,
@@ -186,6 +189,14 @@
 				1C2E399021C8F9AF00CACB25 /* Info.plist */,
 			);
 			path = TestiOSTests;
+			sourceTree = "<group>";
+		};
+		1C6FD94C21CAE7E7009DA76B /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				1C6FD94D21CAE7F3009DA76B /* cocoa.swift */,
+			);
+			path = osx;
 			sourceTree = "<group>";
 		};
 		245A592A7E6681070A2F80C8 /* Pods */ = {
@@ -386,6 +397,7 @@
 				1C2E393E21C81A9200CACB25 /* strings.swift in Sources */,
 				1C2E399821C8FB6C00CACB25 /* Sys.swift in Sources */,
 				1C2E394121C81FCF00CACB25 /* array.swift in Sources */,
+				1C6FD94E21CAE7F3009DA76B /* cocoa.swift in Sources */,
 				1C2E393521C81A6500CACB25 /* main.swift in Sources */,
 				1C2E396221C84B4B00CACB25 /* Meta.swift in Sources */,
 				1C2E393F21C81A9500CACB25 /* version.swift in Sources */,
