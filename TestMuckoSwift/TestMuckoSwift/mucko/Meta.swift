@@ -42,4 +42,11 @@ class TestMeta: WTestCase {
         Assert.equal(typeof(self), TestMeta.self)
     }
 
+    @objc func test_returntype() {
+        func f<R>(_ type: R.Type, _ val: R) -> R {
+            return val
+        }
+        Assert.equal(f(Int.self, 3), 3)
+    }
+
 }

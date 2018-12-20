@@ -8,4 +8,5 @@ var tests = [
     TestSys.self,
     TestFloat.self,
     TestParse.self,
+    TestOptionSet.self,
 ]
