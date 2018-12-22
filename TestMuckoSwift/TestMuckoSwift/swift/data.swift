@@ -18,6 +18,7 @@ class TestData: WTestCase {
     
     @objc func test_Data() {
         Assert.equal(Data(string: ""), Data())
+        Assert.equal(length(Data(string: "abc")), 3)
     }
 
 }
