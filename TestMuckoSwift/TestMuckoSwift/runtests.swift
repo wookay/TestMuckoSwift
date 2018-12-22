@@ -9,6 +9,7 @@ var tests = [
     TestFloat.self,
     TestParse.self,
     TestShow.self,
+    TestSome.self,
     TestOptionSet.self, // swift
     TestData.self, // swift
     TestURL.self, // swift
