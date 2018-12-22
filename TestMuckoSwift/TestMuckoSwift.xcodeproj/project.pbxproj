@@ -37,6 +37,12 @@
 		1C6F658721CC24F900B44B94 /* optionset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F658621CC24F900B44B94 /* optionset.swift */; };
 		1C6F658821CC24F900B44B94 /* optionset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F658621CC24F900B44B94 /* optionset.swift */; };
 		1C6FD94E21CAE7F3009DA76B /* cocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FD94D21CAE7F3009DA76B /* cocoa.swift */; };
+		1CC4E2BF21CE64510077A1B8 /* show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4E2BE21CE64510077A1B8 /* show.swift */; };
+		1CC4E2C021CE64510077A1B8 /* show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4E2BE21CE64510077A1B8 /* show.swift */; };
+		1CC4E2C221CE66920077A1B8 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4E2C121CE66920077A1B8 /* data.swift */; };
+		1CC4E2C321CE66920077A1B8 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4E2C121CE66920077A1B8 /* data.swift */; };
+		1CC4E2D421CE6F4A0077A1B8 /* url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4E2D321CE6F4A0077A1B8 /* url.swift */; };
+		1CC4E2D521CE6F4A0077A1B8 /* url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4E2D321CE6F4A0077A1B8 /* url.swift */; };
 		253E3E6C29927FEDE0A23849 /* libPods-TestiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A8DD377F5F6AA24C959167 /* libPods-TestiOS.a */; };
 		A67AA50169C56F0579B5A9E7 /* libPods-TestMuckoSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7D52E9278C102614793002 /* libPods-TestMuckoSwift.a */; };
 /* End PBXBuildFile section */
@@ -89,6 +95,9 @@
 		1C2E39D621C955B600CACB25 /* parse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = parse.swift; sourceTree = "<group>"; };
 		1C6F658621CC24F900B44B94 /* optionset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionset.swift; sourceTree = "<group>"; };
 		1C6FD94D21CAE7F3009DA76B /* cocoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cocoa.swift; sourceTree = "<group>"; };
+		1CC4E2BE21CE64510077A1B8 /* show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = show.swift; sourceTree = "<group>"; };
+		1CC4E2C121CE66920077A1B8 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		1CC4E2D321CE6F4A0077A1B8 /* url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = url.swift; sourceTree = "<group>"; };
 		2A413BC577834A05CF0B44AF /* Pods-TestiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestiOS/Pods-TestiOS.release.xcconfig"; sourceTree = "<group>"; };
 		6488C704BFF6E79DCCD33EE7 /* Pods-TestMuckoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMuckoSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestMuckoSwift/Pods-TestMuckoSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		B2A8DD377F5F6AA24C959167 /* libPods-TestiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,6 +178,7 @@
 				1C2E396921C884BD00CACB25 /* Core.swift */,
 				1C2E396D21C885C500CACB25 /* error.swift */,
 				1C2E399721C8FB6C00CACB25 /* Sys.swift */,
+				1CC4E2BE21CE64510077A1B8 /* show.swift */,
 			);
 			path = mucko;
 			sourceTree = "<group>";
@@ -199,6 +209,8 @@
 			isa = PBXGroup;
 			children = (
 				1C6F658621CC24F900B44B94 /* optionset.swift */,
+				1CC4E2C121CE66920077A1B8 /* data.swift */,
+				1CC4E2D321CE6F4A0077A1B8 /* url.swift */,
 			);
 			path = swift;
 			sourceTree = "<group>";
@@ -455,11 +467,14 @@
 				1C2E393E21C81A9200CACB25 /* strings.swift in Sources */,
 				1C2E399821C8FB6C00CACB25 /* Sys.swift in Sources */,
 				1C2E394121C81FCF00CACB25 /* array.swift in Sources */,
+				1CC4E2D421CE6F4A0077A1B8 /* url.swift in Sources */,
 				1C6FD94E21CAE7F3009DA76B /* cocoa.swift in Sources */,
 				1C2E393521C81A6500CACB25 /* main.swift in Sources */,
+				1CC4E2BF21CE64510077A1B8 /* show.swift in Sources */,
 				1C2E396221C84B4B00CACB25 /* Meta.swift in Sources */,
 				1C6F658721CC24F900B44B94 /* optionset.swift in Sources */,
 				1C2E393F21C81A9500CACB25 /* version.swift in Sources */,
+				1CC4E2C221CE66920077A1B8 /* data.swift in Sources */,
 				1C2E39A121C8FBE700CACB25 /* runtests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,11 +490,14 @@
 				1C2E397A21C8F9AD00CACB25 /* AppDelegate.swift in Sources */,
 				1C2E39D821C955B600CACB25 /* parse.swift in Sources */,
 				1C2E399B21C8FB7400CACB25 /* version.swift in Sources */,
+				1CC4E2D521CE6F4A0077A1B8 /* url.swift in Sources */,
 				1C2E399A21C8FB7400CACB25 /* strings.swift in Sources */,
 				1C2E399D21C8FB7400CACB25 /* Meta.swift in Sources */,
+				1CC4E2C021CE64510077A1B8 /* show.swift in Sources */,
 				1C2E399E21C8FB7400CACB25 /* Core.swift in Sources */,
 				1C6F658821CC24F900B44B94 /* optionset.swift in Sources */,
 				1C2E399F21C8FB7400CACB25 /* error.swift in Sources */,
+				1CC4E2C321CE66920077A1B8 /* data.swift in Sources */,
 				1C2E399921C8FB6C00CACB25 /* Sys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

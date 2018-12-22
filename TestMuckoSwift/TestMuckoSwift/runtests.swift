@@ -8,5 +8,8 @@ var tests = [
     TestSys.self,
     TestFloat.self,
     TestParse.self,
-    TestOptionSet.self,
+    TestShow.self,
+    TestOptionSet.self, // swift
+    TestData.self, // swift
+    TestURL.self, // swift
 ]
