@@ -19,5 +19,18 @@ class TestArray: WTestCase {
         Assert.True(isempty(()))
     }
 
+    typealias Vector = Array
+    @objc func test_push() {
+        var a = Vector<Int>()
+        a.pushI(1)
+        Assert.equal(a, [1])
+    }
+
+    @objc func test_append() {
+        var a = Vector<Int>()
+        a.appendI([1])
+        Assert.equal(a, [1])
+    }
+
 }
 

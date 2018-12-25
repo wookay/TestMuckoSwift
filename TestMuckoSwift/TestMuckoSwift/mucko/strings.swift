@@ -39,6 +39,14 @@ class TestString: WTestCase {
         Assert.equal(string(n as Any, 5, "a"), "nil5a")
     }
 
+    @objc func test_String() {
+        Assert.equal(String(1), "1")
+        let sel = #selector(test_String)
+        Assert.equal(String(selector: sel), "test_String")
+        let sel2 = Selector(("help"))
+        Assert.equal(String(selector: sel2), "help")
+    }
+
     @objc func test_isempty() {
         Assert.True(isempty(""))
     }
